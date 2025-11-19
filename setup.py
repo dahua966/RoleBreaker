@@ -11,7 +11,6 @@ setup(name='slope',
       description='Library for jailbreak test',
       python_requires='>=3.11',
       author='HuaSir',
-      author_email='wzh15@nudt.edu.cn',
       classifiers=[
           'Programming Language :: Python :: 3',
           'License :: OSI Approved :: MIT License',
