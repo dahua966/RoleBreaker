@@ -3,13 +3,12 @@
 ## Overview
 In this study, we aim to identify the role settings that lead LLMs to generate harmful responses. 
 We design an automated jailbreak framework, RoleBreaker, that explores and identifies optimal role settings for specific harmful queries. 
-Experiments on advanced LLMs show that RoleBreaker achieves an average jailbreak success rate of 87.8%, outperforming existing SOTA methods.
-Furthermore, by summarizing the jailbreak experiences and applying them to closed-source commercial models (GPT, Gemini, GLM), we achieve an average jailbreak success rate of 82%.
+Experiments on advanced open-source and commercial LLMs show that RoleBreaker outperforms existing SOTA methods.
 These results show our approach's transferability and reveal vulnerabilities in current alignment mechanisms.
 <div style="text-align: center;">
 <img src="pics/overview.png" alt="">
 </div>
-
+Attention! RoleBreaker is intended solely for defensive research.
 
 
 ## File Structure
